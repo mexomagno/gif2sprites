@@ -45,6 +45,13 @@ This project's solely purpose is to produce compatible sprite images for the **[
     python3 ./led-badge-11x33.py -s9 -m5 :flame.png:
     ```
 
+### Binarization
+
+As the screen doesn't support grayscales, each frame has to be binarized, converting every pixel either to absolute white or absolute black.
+This process takes into account a threshold gray level from where flip from black to white.
+
+The example was produced with a threshold of 30, as the flames are rather dark, and the background is absolute 0.
+
 ## TODO
 
 * Minimal GUI

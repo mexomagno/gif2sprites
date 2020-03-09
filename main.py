@@ -125,7 +125,7 @@ def parse_args():
 
     parser = argparse.ArgumentParser(description="Convert gif image to a single image with its frames")
     parser.add_argument('file', metavar="FILE", type=_supported_image_file, help="Gif file path")
-    parser.add_argument('--bin-threshold', '-b', type=int, default=200, help="Binarization threshold (black and white conversion)")
+    parser.add_argument('--bin-threshold', '-b', type=int, default=200, help="Binarization threshold [0-255] (black and white conversion)")
     parser.add_argument('--invert', '-i', help="Invert colors", action="store_true")
     parser.add_argument('--white-bg', '-w', help="White background. By default, black is used.", action="store_true")
     args = parser.parse_args()
