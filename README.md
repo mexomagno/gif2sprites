@@ -54,6 +54,7 @@ The example was produced with a threshold of 30, as the flames are rather dark, 
 
 ## TODO
 
+* Fix: Simulate frames duration (currently they're just equally spaced in time)
 * Minimal GUI
 * Preview generated frames
 * Support for other screen sizes (currently only 33x11 supported)
