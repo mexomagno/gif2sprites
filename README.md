@@ -1,7 +1,7 @@
 # gif2sprites
 Converts animated gif to a single image with it's sprites. Designed to work with the 33x11 led name badge ls32
 
-This project's solely purpose is to produce compatible sprite images for the **[Led Name Badge L32](https://github.com/jnweiger/led-name-badge-ls32)** project, for **33x22** ls32 screens.
+This project's solely purpose is to produce compatible sprite images for the **[Led Name Badge L32](https://github.com/jnweiger/led-name-badge-ls32)** project, for **33x11** ls32 screens.
 
 ## Example
 
