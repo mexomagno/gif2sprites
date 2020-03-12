@@ -42,7 +42,7 @@ This project's solely purpose is to produce compatible sprite images for the **[
     ```
 1. **Pass image to led name badge script** (using the project's instructions)  
     ```sh
-    python3 ./led-badge-11x33.py -s9 -m5 :flame.png:
+    python3 ./led-badge-11x44.py -s9 -m5 :flame.png:
     ```
 
 ### Binarization
